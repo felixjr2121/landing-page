@@ -7,16 +7,24 @@
 </head>
 <body>
     <header>
-        <h4>header logo</h3>
-        <ul>
-            <li>header link one</li>
-            <li>header link two</li>
-            <li>header link three</li>
-        </ul>
-        <h1>This website is awesome</h1>
-        The website has some smaller font that goes under the main title. It's smaller font and the color is lower contrast.
-        <button type="button" onclick="alert ('submitted')">Submit</button>
-        <img src="./images/violin.jpg" alt="a violinist playing the violin" width="400">
+        <div class="header-one">
+            <h4>header logo</h4>
+            <ul>
+                <li>header link one</li>
+                <li>header link two</li>
+                <li>header link three</li>
+            </ul>
+        </div>
+        <div class="header-two">
+            <div class="header-text">
+                <h1>This website is awesome</h1>
+                The website has some smaller font that goes under the main title. It's smaller font and the color is lower contrast.
+                <button type="button" onclick="alert ('submitted')">Submit</button>
+            </div>
+            <div class="header-image">
+                <img src="./images/violin.jpg" alt="a violinist playing the violin" width="400">
+            </div>
+        </div>
     </header>
     
     <div class="content">
@@ -42,8 +50,8 @@
             Sign up for our product by clicking that button right over there!
             <button type="button" onclick="alert ('Thanks!')">Sign Up</button>
         </div> 
-
     </div>
+
     <footer>Copyright © Felix Gamez 2023</footer>
 </body>
 </html>
